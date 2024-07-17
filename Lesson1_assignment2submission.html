@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+
+<html><!-- opening html tag -->
+  <head> <!-- background stuff -->
+    <title>Form to Submit a Recipe</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Lesson1_assignment2.css">
+    <link rel="stylesheet" href="Lesson1_assignment2submission.css">
+
+    <style>
+        body {
+            background-color: aqua;
+        }
+    </style>
+  </head>
+
+<body>
+    <h1>📃📃Form to Submit a Recipe📃📃</h1>
+    <form action="#" method="post">
+        <label for="recipe-name">Name of Recipe</label>
+        <input type="text" id="recipe-name" required>
+
+        <br><br>
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" rows="15" cols="150" required>Please enter the ingredients</textarea>
+
+        <br><br>
+
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" name="instructions" rows="30" cols="150" required>Please enter the instructions</textarea>
+
+        <br><br>
+
+        <button type="submit" class="submit-button">Submit Recipe</button>
+
+    </form>
+</body>
+</html>
